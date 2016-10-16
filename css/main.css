@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #f2f2f2;
-  font-family: Lato;
+  font-family: 'Lato';
   line-height: 1.5em;
 }
 
@@ -12,8 +12,19 @@ html {
 body {
   background-color: #666;
   color: #333;
+  margin: 1.5rem;
+  padding: 1em;
+  vertical-align: middle;
 }
+
+p {
+  text-align: left;
+  max-width: 25em;
+  padding: 2em;
+}
+
 .btn {
+  display: inline-block;
   text-align: center;
   padding: 0.4em 0.75em 0.5em;
 }
