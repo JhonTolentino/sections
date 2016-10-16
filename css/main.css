@@ -2,14 +2,18 @@ html {
   box-sizing: border-box;
   background-color: #f2f2f2;
   font-family: Lato;
-  line-height: 1.5em
+  line-height: 1.5em;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-.btn{
+body {
+  background-color: #666;
+  color: #333;
+}
+.btn {
   text-align: center;
   padding: 0.4em 0.75em 0.5em;
 }
