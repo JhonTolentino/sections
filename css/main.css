@@ -14,14 +14,14 @@ body {
   color: #333;
   margin: 2rem;
   padding: 1em;
-  vertical-align: middle;
 }
 
 img {
   display: inline-block;
   max-width: 25em;
-  width: 25em
+  vertical-align: middle;
 }
+
 p {
   display: inline-block;
   text-align: left;
